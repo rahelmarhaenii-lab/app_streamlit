@@ -4,7 +4,7 @@ import streamlit as st
 st.title('aplikasi perhitungan luas bangun datar')
 st.header('ini buatan anak SI')
 
-menu = st.sidebar.selectbox('pilih aplikasi', ['luas persegi', 'luas segitiga', 'luas lingkaran'])
+menu = st.sidebar.selectbox('pilih aplikasi', ['luas persegi', 'luas segitiga', 'luas lingkaran', 'luas persegi panjang'])
 
 if menu == 'luas persegi':
     st.write('ini halan untuk menghitung luas persegi')
